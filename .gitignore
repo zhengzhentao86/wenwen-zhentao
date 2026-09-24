@@ -1,0 +1,16 @@
+.research/
+.maintenance/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+tests/.runs/
+skills/.*.maintain-*/
+skills/.*.txn.json
+
+# 本机历史规格、原文映射及审核报告不随公共仓库分发。
+/docs/*
+!/docs/INSTALLATION.md
+!/docs/DEVELOPMENT.md
+!/docs/RELEASE-NOTES-0.5.1.md

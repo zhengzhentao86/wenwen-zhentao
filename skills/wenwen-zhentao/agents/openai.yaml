@@ -1,0 +1,4 @@
+interface:
+  display_name: "问问镇涛"
+  short_description: "课后答疑、商品提示词、爆款复刻与裂变、人物三视图和故事板工具箱"
+  default_prompt: "使用 $wenwen-zhentao，按我的实际目标解答问题或交付可直接使用的提示词；材料足够就直接做。"

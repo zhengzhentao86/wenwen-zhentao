@@ -1,0 +1,4 @@
+interface:
+  display_name: "zt"
+  short_description: "问问镇涛统一入口，自动调用答疑、提示词、复刻、裂变与素材模块"
+  default_prompt: "使用 $zt，按我当前的目标自动选择合适模块或 Skill，直接帮我完成。"
