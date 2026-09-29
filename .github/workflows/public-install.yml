@@ -1,0 +1,18 @@
+name: Public installation check
+on:
+  release:
+    types: [published, edited]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  anonymous-install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -B tools/check_public_install.py

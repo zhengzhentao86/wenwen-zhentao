@@ -24,9 +24,14 @@
 把下面这段口令发给支持安装 Skill 的 AI 助手：
 
 ```text
-请帮我安装“问问镇涛”技能：https://github.com/zhengzhentao86/wenwen-zhentao
-同时安装 zt 入口和 wenwen-zhentao 主技能，并验证安装成功。
-安装完成后，请读取已安装主技能的 references/welcome.md，在当前对话主动向我介绍用途、能帮我做什么、使用示例，以及作者微信和领取 AI 电商知识库的方式。
+请按以下官方安装说明，为当前 AI 工具安装“问问镇涛”：
+https://raw.githubusercontent.com/zhengzhentao86/wenwen-zhentao/main/docs/INSTALLATION.md
+
+仓库分支为 main，必须同时安装 skills/zt 和 skills/wenwen-zhentao。
+如果仓库读取失败，使用完整安装包：
+https://github.com/zhengzhentao86/wenwen-zhentao/releases/latest/download/wenwen-zhentao-install.zip
+
+验证安装成功后，读取主技能 references/welcome.md，主动介绍功能、用法及作者联系方式。失败时报告实际错误，不将网络错误判定为仓库为空。
 ```
 
 欢迎介绍也可在首次输入 `/zt` 时查看。手动解压或 CLI 安装不会自行发送聊天消息，需由 AI 安装助手展示，或加载 Skill 后展示。
@@ -45,7 +50,7 @@ npx -y skills add zhengzhentao86/wenwen-zhentao -g --skill '*' --copy
 
 ### 方式二：下载完整安装包
 
-打开 [最新 Release](https://github.com/zhengzhentao86/wenwen-zhentao/releases/latest)，下载 `zt-0.5.2.zip`，解压得到：
+打开 [最新 Release](https://github.com/zhengzhentao86/wenwen-zhentao/releases/latest)，下载 `wenwen-zhentao-install.zip`，解压得到：
 
 ```text
 zt/

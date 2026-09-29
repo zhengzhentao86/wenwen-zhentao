@@ -49,3 +49,11 @@ python3 -B tools/build_entry_bundle.py --release \
 ## 验证边界
 
 单元测试验证工程行为，定向答题检查部分已知场景；两者都不能代替真实学员反馈、实际媒体生成验收或经营结果。失败日志和未完成题目保留在本人维护层。
+
+## 每次发行必须完成的安装验收
+
+正式构建后执行 `python3 -B tools/prepare_install_assets.py --version 实际版本号`，生成固定名称的 `wenwen-zhentao-install.zip` 和 `wenwen-zhentao-install-manifest.json`。每个 Release 都必须上传这两个文件；保持版本化附件用于追溯，不能用 latest 链接拼接固定旧版本文件名。
+
+新发行先创建 draft，上传并核对所有附件后再公开。公开后执行 `python3 -B tools/check_public_install.py`：不带认证头，下载固定链接，在临时空目录验证 ZIP、逐文件哈希及完整入口。仅验收成功才交付分享链接；失败报告具体阶段，不能称为仓库为空。此检查不证明所有网络或宿主兼容。
+
+GitHub Actions 的 Public installation check 在 Release 发布、编辑及手动触发时运行同一检查。为已有 Release 补附件后手动触发。失败须修复或明确标示不可用，禁止仅凭维护者本机已有安装宣称首次安装通过。
