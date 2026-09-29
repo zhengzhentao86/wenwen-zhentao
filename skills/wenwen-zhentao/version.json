@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "skill": "wenwen-zhentao",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "channel": "stable",
   "knowledge_version": "0.5.0",
   "update_manifest_url": "https://raw.githubusercontent.com/zhengzhentao86/wenwen-zhentao/main/releases/latest.json",

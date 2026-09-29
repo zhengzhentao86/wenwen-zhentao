@@ -1,6 +1,6 @@
 # 问问镇涛
 
-基于镇涛实操知识的 AI 助教与创作工具箱。安装后输入 `/zt`，直接说问题或发素材。
+基于郑镇涛实操知识的 AI 电商落地顾问与创作助手。安装后输入 `/zt`，直接说问题或发素材。
 
 [![版本](https://img.shields.io/github/v/release/zhengzhentao86/wenwen-zhentao)](https://github.com/zhengzhentao86/wenwen-zhentao/releases/latest)
 [![许可：CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](LICENSE)
@@ -21,6 +21,18 @@
 
 ## 安装
 
+把下面这段口令发给支持安装 Skill 的 AI 助手：
+
+```text
+请帮我安装“问问镇涛”技能：https://github.com/zhengzhentao86/wenwen-zhentao
+同时安装 zt 入口和 wenwen-zhentao 主技能，并验证安装成功。
+安装完成后，请读取已安装主技能的 references/welcome.md，在当前对话主动向我介绍用途、能帮我做什么、使用示例，以及作者微信和领取 AI 电商知识库的方式。
+```
+
+欢迎介绍也可在首次输入 `/zt` 时查看。手动解压或 CLI 安装不会自行发送聊天消息，需由 AI 安装助手展示，或加载 Skill 后展示。
+
+**添加郑镇涛微信：7838053，可以领取 AI 电商知识库。**
+
 ### 方式一：使用 Skills CLI
 
 在终端运行：
@@ -33,7 +45,7 @@ npx -y skills add zhengzhentao86/wenwen-zhentao -g --skill '*' --copy
 
 ### 方式二：下载完整安装包
 
-打开 [最新 Release](https://github.com/zhengzhentao86/wenwen-zhentao/releases/latest)，下载 `zt-0.5.1.zip`，解压得到：
+打开 [最新 Release](https://github.com/zhengzhentao86/wenwen-zhentao/releases/latest)，下载 `zt-0.5.2.zip`，解压得到：
 
 ```text
 zt/
@@ -74,7 +86,7 @@ wenwen-zhentao/
 
 ## 当前版本与验证
 
-v0.5.1 是首个公开发行版，包含 191 条答疑与方法。知识正文与 v0.5.0 一致，此次加入非商业许可、公共发行包和更新地址。
+v0.5.2 加入安装后与首次使用的欢迎介绍、使用示例和作者联系方式，包含 191 条答疑与方法。知识正文沿用 v0.5.0；许可和更新机制沿用 v0.5.1。
 
 原有知识版的 96 项工程检查通过；58 道检索题原问前五命中 56 道，其余两道用操作关键词定位成功。本机 Codex 的 16 道定向答题计划完成 12 道，独立 AI 评阅为 11 道通过、1 道有小项遗漏；其余 4 道网络超时未评分。公开发行改动的检查见 [版本说明](docs/RELEASE-NOTES-0.5.1.md)。
 

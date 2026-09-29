@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "skill": "wenwen-zhentao",
-  "version": "0.5.1",
-  "archive_url": "https://raw.githubusercontent.com/zhengzhentao86/wenwen-zhentao/main/releases/wenwen-zhentao-0.5.1.zip",
-  "sha256": "ad202ba1ffa8e2414cd7b4385acabff3ce9920c9948476c41a867238272bf213",
+  "version": "0.5.2",
+  "archive_url": "https://raw.githubusercontent.com/zhengzhentao86/wenwen-zhentao/main/releases/wenwen-zhentao-0.5.2.zip",
+  "sha256": "104a65125046643ca4cef36043ff19013a1f864b6b670f35ea60dd119b4bbfe5",
   "files": {
-    "CHANGELOG.md": "4ab2291d240d4d0ecec8602b625d2adbe574b44b42d3ca2dd4f229b4f9f68088",
+    "CHANGELOG.md": "f7e09df66f5d1dd36fc983f7f20d645b7173bd432062792712a50ff29a99b8e1",
     "LICENSE.txt": "694b099e585b8d10b60974d6579701ce5b4d238ecc0143ea2f3149562d9f30e2",
-    "README.md": "2b5aef837f6c896f272178ceefd5a5dfe22c2a78aba1667244c08c099f71d452",
-    "SKILL.md": "b3cc74eb4234f3ea0b61a698bef26001541542fd3b60088030737d91daf95d6e",
+    "README.md": "699a8738753252e1c71a25a828fc5bbbf5b67e99c64d5ce357ef4726146c6c08",
+    "SKILL.md": "bee22eb52541fd398348f2d87e25cab30d14e92a74d71665e817ac4677ff4a27",
     "agents/openai.yaml": "d5050556a7b2f43794ac0940f95bd2c88b303a381914a48e988b9a367d64e23e",
     "knowledge/INDEX.md": "3069a0ca6732f99683e86e128f9aa377207aec8a0375db73b6a20431b2e2ac46",
     "knowledge/METHODS.md": "848c7cb75df94f5c82b47a79d2053b50b3ec17a27f54d58f27636084b08a3b45",
@@ -216,10 +216,11 @@
     "references/media-troubleshooting.md": "cbc3a26c21e20cf4ced22da34072ac3da12c87c6105ba83078b384dbb2e27c49",
     "references/routing.md": "c6c2eb6dc9dfc266e0333f96342d5797db6f6266465026bc33c1625eb04530b0",
     "references/updates.md": "be992240c355146aef1efb60b969d66a94c28ab0f7262a0ce58415612c4f980e",
-    "release-files.json": "598d4c24c8a6176507605f444140e7071988b16eabb8c433a3e3788e630765b3",
+    "references/welcome.md": "f9fd8f8ed37feb7b58e9682ce268cbf903c28630e37295aee64041cb4e0edc84",
+    "release-files.json": "8926128288b649b9c14dd69b21f9cb7f2dea2e0c06e2b1f77f134752d611f142",
     "scripts/search.py": "805610a31ee96f6d25c804b5645c9d53d79c69441f413c05efde0e829d4ca1e0",
     "scripts/update.py": "e75d85a45d7bf630014e80af822fade751adc10618aef4ee3b078cd52b5173c7",
-    "version.json": "3b7bc77763c34ecc7f1c0de68e49a54a789900426a3bee4b56cf9a31a7eff789"
+    "version.json": "6ce5218d82ceb0e087cb919851c7a4e42eae4074f8a9d17e4fb218d56fb9753d"
   },
   "min_updater_version": 1
 }
